@@ -26,7 +26,7 @@ import BackgroundImg from "../assets/particle.png";
 
 const Showcase = () => {
   return (
-    <PaddingContainer id="Home" left="3%" right="10%" top="15%" bottom="10%">
+    <PaddingContainer id="Home" left="3%" right="10%" top="15%" bottom="10%" margin_left="5rem">
       <FlexContainer fullWidthChild>
         {/*--left-content--*/}
         <div>

@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 export const SkillsCardContainer = styled.div`
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: auto auto auto ;
 grid-gap: 2rem;
 padding:0 5%;
+margin-left:14rem;
 `
 export const SkillsCard = styled.div`
 width: 230px;

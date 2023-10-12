@@ -25,11 +25,15 @@ const MySkills = () => {
    top="10%"
    bottom="10%"
    >
+    <Heading  align="center" as="h2" size= "h2" top="0.5rem" left="4rem" bottom="2rem">
+    Mis <BlueText>Habilidades</BlueText>
+</Heading>
 <FlexContainer fullWidthChild>
+    {/* --left-section-- */}
     <SkillsCardContainer>
 {Skills.map((skill) => (
 <SkillsCard>
-    <IconContainer size="5rem" color="blue">
+    <IconContainer color="blue" size="5rem">
         {skill.icon}
     </IconContainer>
 <Heading as="h4" size="h4">
@@ -39,8 +43,11 @@ const MySkills = () => {
 </SkillsCard>   
 ))}        
 </SkillsCardContainer> 
+{/* --rigth-section-- */}
 
         <div>
+
+
 
         </div>
 
